@@ -14,26 +14,26 @@
 // выводи строку`"14 ч."`, без минут.
 
 // ```js
-// const hours = 14;
-// const minutes = 26;
-// let message = "";
+const hours = 14;
+const minutes = 26;
+let message = "";
 
-// if (minutes === 0) {
-//   message = `${hours} г.`;
-// } else {
-//   message = message = `${hours} г. ${minutes} хв.`;
-// }
+if (minutes === 0) {
+  message = `${hours} г.`;
+} else {
+  message = message = `${hours} г. ${minutes} хв.`;
+}
 
-// console.log("message", message);
+console.log("message", message);
 
-// let timestring;
+let timestring;
 
-// if (minutes > 0) {
-//   timestring = `${ hours } ч.${ minutes } мин.`;
-// } else {
-//   timestring = `${ hours } ч.`;
-// }
-// console.log(timestring);
+if (minutes > 0) {
+  timestring = `${ hours } ч.${ minutes } мин.`;
+} else {
+  timestring = `${ hours } ч.`;
+}
+console.log(timestring);
 // ```
 
 // ## Example 3 - Ветвеления
